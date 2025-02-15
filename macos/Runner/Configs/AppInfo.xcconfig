@@ -8,7 +8,7 @@
 PRODUCT_NAME = DynamicLibB
 
 // The application's bundle identifier
-PRODUCT_BUNDLE_IDENTIFIER = hr.ff.dynamiclibb
+PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.dynamiclibb
 
 // The copyright displayed in application information
 PRODUCT_COPYRIGHT = Copyright © 2024 DynamicLibB. All rights reserved.

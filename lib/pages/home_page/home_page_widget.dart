@@ -49,7 +49,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
           backgroundColor: FlutterFlowTheme.of(context).primary,
           automaticallyImplyLeading: false,
           title: Text(
-            'Dynamic Lib B v0.0.1',
+            'Dynamic Lib B v0.0.5',
             style: FlutterFlowTheme.of(context).headlineMedium.override(
                   fontFamily: 'Inter Tight',
                   color: Colors.white,
@@ -88,7 +88,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                         EdgeInsetsDirectional.fromSTEB(16.0, 0.0, 16.0, 0.0),
                     iconPadding:
                         EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
-                    color: Color(0xFF7C0091),
+                    color: Color(0xFF00914C),
                     textStyle: FlutterFlowTheme.of(context).titleSmall.override(
                           fontFamily: 'Inter Tight',
                           color: Colors.white,
@@ -97,6 +97,13 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                     elevation: 0.0,
                     borderRadius: BorderRadius.circular(8.0),
                   ),
+                ),
+                Text(
+                  'Hello World',
+                  style: FlutterFlowTheme.of(context).bodyMedium.override(
+                        fontFamily: 'Inter',
+                        letterSpacing: 0.0,
+                      ),
                 ),
               ].divide(SizedBox(height: 12.0)),
             ),

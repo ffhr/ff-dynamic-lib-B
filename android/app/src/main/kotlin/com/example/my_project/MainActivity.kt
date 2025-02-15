@@ -1,4 +1,4 @@
-package hr.ff.dynamiclibb
+package com.mycompany.dynamiclibb
 
 import io.flutter.embedding.android.FlutterActivity
 

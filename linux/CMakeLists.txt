@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.10)
 project(runner LANGUAGES CXX)
 
 set(BINARY_NAME "DynamicLibB")
-set(APPLICATION_ID "hr.ff.dynamiclibb")
+set(APPLICATION_ID "com.mycompany.dynamiclibb")
 
 cmake_policy(SET CMP0063 NEW)
 
